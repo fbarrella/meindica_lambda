@@ -9,9 +9,9 @@ exports.handler = async (event, context) => {
 
     try {
         if(event.httpMethod == 'GET') {
-            const spreadsheetId = '1No3DU3JczmB7zght-tODN2Q9fBqJviI6AzAAMRZEcTQ';
-			const sheetId = '949168486'
-			const API_KEY = 'AIzaSyC0H2DZVFe6wnbphGMH--l8RFkiTykfKtc';
+            const spreadsheetId = 'SPREADSHEET ID';
+			const sheetId = 'SHEET ID'
+			const API_KEY = 'API KEY';
 			const doc = new GoogleSpreadsheet(spreadsheetId);
 			doc.useApiKey(API_KEY);
 			await doc.loadInfo();
