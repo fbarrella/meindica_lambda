@@ -5,4 +5,4 @@ Esse projeto foi criado com o intuito de testar e praticar o consumo de um arqui
 
 Pode ser visto funcionando no projeto teste encontrado no link: https://jsfiddle.net/fbarrella/87w6rpsb/
 
-<script async src="//jsfiddle.net/fbarrella/87w6rpsb/embed/result/"></script>
+<img src="./example.png" />
